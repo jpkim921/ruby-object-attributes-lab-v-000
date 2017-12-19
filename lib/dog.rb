@@ -1,17 +1,18 @@
 class Dog
-  def name(name)
+
+  def name(name) # reader
     @name
   end
 
-  def name=(name)
+  def name=(name) # writer
     @name = name
   end
 
-  def breed(name)
+  def breed(breed)
     @breed
   end
 
-  def breed=(name)
+  def breed=(breed)
     @breed = name
   end
 
