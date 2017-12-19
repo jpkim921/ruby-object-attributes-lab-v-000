@@ -1,4 +1,9 @@
 class Dog
+  def initiate(name, breed)
+    @name = name
+    @breed = breed    
+  end
+
 
   def name(name) # reader
     @name
