@@ -1,7 +1,7 @@
 class Dog
   def initiate(name, breed)
     @name = name
-    @breed = breed    
+    @breed = breed
   end
 
 
