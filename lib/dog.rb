@@ -5,7 +5,7 @@ class Dog
   end
 
 
-  def name(name) # reader
+  def name # reader
     @name
   end
 
