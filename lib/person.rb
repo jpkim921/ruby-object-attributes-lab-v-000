@@ -1,5 +1,5 @@
 class Person
-  def name(name) # reader
+  def name # reader
     @name
   end
 
@@ -7,7 +7,7 @@ class Person
     @name = name
   end
 
-  def job(job)
+  def job
     @job
   end
 
